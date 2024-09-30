@@ -1,0 +1,160 @@
+.programa{
+margin: 0 auto;
+position: relative;
+}
+
+
+
+
+.programa .section-tittle h2{
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.programa .agenda{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    
+
+}
+
+
+.programa .agenda .container-ponente{
+    display: flex;
+    margin-right: 50px;
+    width: 100%;
+   
+}
+
+.programa .agenda-item{
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 1px solid white;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.programa .agenda .time{
+    margin-right: 50px;
+    color: var(--color-text);
+    font-weight: bold;
+    width: 10%;
+}
+
+.programa .agenda .ponente img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 10px 10px 0;
+    border: 3px solid var(--color-primary);
+}
+
+
+
+.programa .agenda .agenda-item h4{
+    color: var(--color-primary);
+    font-size: 18px;
+
+
+}
+
+.programa .agenda .agenda-item span{
+    color: var( --color-white);
+    opacity: .4;
+    font-size: 16px;
+    font-style: italic;
+    margin-left: 4px;
+    font-weight: normal;
+    margin-bottom: 4px;
+}
+
+.programa .agenda .agenda-item p{
+    color: var( --color-white);
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+
+.programa .agenda .ponencia-button button{
+
+    background: none;
+    border: 1px solid var(--color-white);
+    border-radius: 8px;
+    padding: 10px 25px;
+    font-family: 'Filson';
+    appearance: none;
+    background-color: transparent;
+    box-sizing: border-box;
+    color: #3B3B3B;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0;
+    min-width: 0;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+
+  }
+  .ponencia-button button:disabled {
+    pointer-events: none;
+  }
+
+  .ponencia-button button:hover {
+    color: #fff;
+    background-color: var(--color-bg);
+    box-shadow: var(--color-primary-variant) 0 8px 15px;
+    transform: translateY(-2px);
+  }
+
+  .ponencia-button button:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+  .ponencia-button button a{
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+  }
+
+/*== Media Queries (dispositivos pequeños) ==*/
+@media screen and (max-width: 600px) {
+
+
+    .programa .agenda-item{
+        flex-direction: column;
+    }
+
+    .programa .container-ponente{
+        align-items: center;
+    }
+
+    .programa .ponente{
+        margin-right: 2rem;
+    }
+
+    .programa .time{
+        display: flex;
+        justify-content: center;
+        margin-right: 0;
+        flex-direction: column;
+        
+    }
+
+    .programa .container-ponente {
+        margin-right: 0;
+    }
+
+    .programa .agenda .ponencia-button button{
+        margin-bottom: 20px;
+    }
+
+
+}
