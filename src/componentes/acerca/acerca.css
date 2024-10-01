@@ -18,7 +18,7 @@
 
 }
 .acerca .acerca-text{
-    width: 100%;
+    width: 50%;
 
 }
 
@@ -91,10 +91,6 @@
         flex-direction: column-reverse;
     }
 
-    .acerca .acerca-video iframe{
-        width: 100%;
-    }
-
     .acerca .bg-cir1{
         top: 94%;
         bottom: 0;
@@ -107,6 +103,11 @@
         left: 43%;
 
     }
+
+    .acerca .acerca-text{
+        width: 100%;
+    
+    }
     
 
 }
@@ -117,7 +118,7 @@
         flex-direction: column-reverse;
     }
 
-    .acerca .acerca-video iframe{
+    .acerca .acerca-text{
         width: 100%;
     }
 

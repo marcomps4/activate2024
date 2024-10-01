@@ -13,6 +13,8 @@ import taller5 from '../../Assets/ponentes/taller5.png';
 import taller6 from '../../Assets/ponentes/taller6.png';
 import taller7 from '../../Assets/ponentes/taller7.png';
 import taller8 from '../../Assets/ponentes/taller8.png';
+import taller9 from '../../Assets/ponentes/taller9.png';
+import taller10 from '../../Assets/ponentes/taller10.png';
 import ponencia1 from '../../Assets/ponentes/ponencia1.png';
 import ponencia2 from '../../Assets/ponentes/ponencia2.png';
 import ponencia3 from '../../Assets/ponentes/ponencia3.png';
@@ -78,6 +80,12 @@ const Ponentes = () =>{
                     </SwiperSlide>
                     <SwiperSlide>
                         <img src={taller8} alt="slide_image" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src={taller9} alt="slide_image" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src={taller10} alt="slide_image" />
                     </SwiperSlide>
                     <SwiperSlide>
                         <img src={ponencia1} alt="slide_image" />
