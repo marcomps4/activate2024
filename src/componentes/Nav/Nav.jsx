@@ -40,7 +40,7 @@ const NavBar = () => {
 
         <div className="navbar-button">
           <button>
-            <a href="#" target="_blank">
+            <a href="https://www.youtube.com/@EDUCADIGITAL_/live" target="_blank">
               <span>Conéctate</span> <CiStreamOn size={20} />
             </a>
           </button>

@@ -14,6 +14,8 @@ import diana from '../../Assets/miniaturas/diana.png';
 import diegoCotrino from '../../Assets/miniaturas/diago_cotrino.png';
 import victor from '../../Assets/miniaturas/victor.png';
 import rafael from '../../Assets/miniaturas/rafael.png';
+import ruben from '../../Assets/miniaturas/ruben.png';
+import freddylberto from '../../Assets/miniaturas/freddylberto.png';
 import registro from '../../Assets/miniaturas/registro.png';
 import apertura from '../../Assets/miniaturas/apertura.png';
 
@@ -24,6 +26,14 @@ const Programa = () =>{
   const [activeTab, setActiveTab] = useState('morning'); // Controla la pestaña activa
 
   const ponentes = [
+    {
+      id:27,
+      time: '8:30 AM',
+      img_ponente: registro,
+      title_ponencia: 'Registro e ingreso',
+      jornada: 'morning',
+      showButton: false
+    },
     {
       id:23,
       time: '9:00 AM',
@@ -165,7 +175,7 @@ const Programa = () =>{
     {
       id:12,
       time: '5:15 PM',
-      img_ponente: ponenteJuan,
+      img_ponente: ruben,
       title_ponencia: 'Ponencia: Integración de habilidades digitales estratégicas en I.A en la investigación formativa',
       nombre: ' Ruben Dario Cardenas Espinso',
       ponencia: 'Revoluciona tus habilidades digitales estratégicas en investigación con I. A',
@@ -175,10 +185,10 @@ const Programa = () =>{
     {
       id:12,
       time: '6:00 PM',
-      img_ponente: ponenteJuan,
-      title_ponencia: 'Ponencia: Integración de habilidades digitales estratégicas en I.A en la investigación formativa',
-      nombre: ' Ruben Dario Cardenas Espinso',
-      ponencia: 'Revoluciona tus habilidades digitales estratégicas en investigación con I. A',
+      img_ponente: freddylberto,
+      title_ponencia: 'Ponencia: Enseñando ética, con una mediación virtual.',
+      nombre: ' Mario Alejandro Franco Guzman y Freddylberto Caraballo Urrego ',
+      ponencia: 'Creando superhéroes y villanos, para la interiorización de una ética aplicada',
       jornada: 'afternoon',
       showButton: false
     },

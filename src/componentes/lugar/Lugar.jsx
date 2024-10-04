@@ -12,7 +12,7 @@ const Lugar = () =>{
                     <h2>Lugar del evento</h2>
 
                     <p>
-                    El evento se realizará de manera presencial en la sede Crisanto luque de la Universidad ECCI y se transmitirá en nuestro canal de YouTube @EDUCADIGITAL_
+                    El evento se realizará de manera presencial en la sede Crisanto Luque de la Universidad ECCI y se transmitirá en nuestro canal de YouTube @EDUCADIGITAL_
 
 
                     </p>
