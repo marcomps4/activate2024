@@ -22,7 +22,9 @@ const Acerca = () =>{
 
                 <div className='acerca-info'>
                     <div className='acerca-text'>
-                    <p><b>Actívate 2024</b> es el evento organizado por la Dirección de Virtualidad de la Universidad ECCI, el cual se centra en la innovación pedagógica desde varias áreas; en esta versión el enfoque será el uso de las tecnologías para generar espacios y actividades disruptivas aplicadas en el aula. De esta manera, Actívate busca desafiar las formas convencionales de transmisión del conocimiento, proponiendo una lógica de participación activa y colaborativa. Los asistentes se convierten en coproductores de saberes, interactuando con proyectos y actividades que reflejan y resuelven problemas reales.
+                    <p>
+                    
+                    <b>Actívate 2024</b> es el evento organizado por la Dirección de Virtualidad de la Universidad ECCI, el cual se centra en la innovación pedagógica desde varias áreas; en esta versión el enfoque será el uso de las tecnologías para generar espacios y actividades disruptivas aplicadas en el aula. De esta manera, Actívate busca desafiar las formas convencionales de transmisión del conocimiento, proponiendo una lógica de participación activa y colaborativa. Los asistentes se convierten en coproductores de saberes, interactuando con proyectos y actividades que reflejan y resuelven problemas reales.
                     
                     <br/> <br/>
 
@@ -40,6 +42,10 @@ const Acerca = () =>{
 
                     ¡Activate! Innovación tecnológica y científica enfocada a la pedagogía.
                     </p>
+                    <div className='video-capsulas'>
+
+                    <iframe src="https://www.youtube.com/embed/XaSKQpba_xQ?si=sQImOgo7GJSvjDZg" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    </div>
                     </div>
 
                     <div className="acerca-img">

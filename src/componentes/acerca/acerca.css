@@ -18,13 +18,26 @@
 
 }
 .acerca .acerca-text{
-    width: 50%;
+    width: 100%;
 
 }
 
 .acerca .acerca-info p{
     text-align: justify;
+    margin-bottom: 20px;
 
+}
+
+.acerca .video-capsulas{
+    width: 100%;
+}
+
+.acerca .video-capsulas iframe{
+    width: 100%;
+    height: 500px;
+    border-radius: 15px;
+    border: 3px solid var(--color-primary);
+    box-shadow: var(--color-primary-variant) 0 8px 150px;
 }
 
 .acerca .acerca-img{
@@ -86,6 +99,19 @@
 
 
 /*== Media Queries (dispositivos medianos) ==*/
+@media screen and (min-width: 2000px) {
+
+    .acerca .acerca-text{
+        width: 50%;
+    
+    }
+
+    
+
+}
+
+
+/*== Media Queries (dispositivos medianos) ==*/
 @media screen and (max-width: 1024px) {
     .acerca .acerca-info{
         flex-direction: column-reverse;
@@ -141,6 +167,12 @@
     }
     .acerca .bg-adorno{
         display: none;
+    }
+
+    .acerca .video-capsulas iframe{
+        height: 300px;
+        border-radius: 10px;
+
     }
 
 }

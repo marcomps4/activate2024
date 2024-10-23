@@ -120,17 +120,6 @@ const Programa = () =>{
       showButton: true
     },
     {
-      id:8,
-      time: '11:00 AM',
-      img_ponente: diana,
-      title_ponencia: 'Taller: Comunicación digital',
-      nombre: 'Diana Elizabeth Ruiz Herrera',
-      ponencia: 'Herramientas que enseñan',
-      streaming: 'https://www.eventbrite.co/e/1030037749637?aff=oddtdtcreator',
-      jornada: 'morning',
-      showButton: true
-    },
-    {
       id:9,
       time: '11:00 AM',
       img_ponente: diegoCotrino,
@@ -288,17 +277,6 @@ const Programa = () =>{
       nombre: 'Victor Hugo Giraldo Lopez',
       ponencia: '¡1,2,3 al aula otra vez!',
       streaming: 'https://www.eventbrite.co/e/1030058712337?aff=oddtdtcreator',
-      jornada: 'afternoon',
-      showButton: true
-    },
-    {
-      id:22,
-      time: '7:00 PM',
-      img_ponente: rafael,
-      title_ponencia: 'Taller: Desata tu ingenio',
-      nombre: 'Rafael Ángel Montoya Gutiérrez',
-      ponencia: 'Potencia el aprendizaje con Gemini y Google Colab',
-      streaming: 'https://www.eventbrite.co/e/1033764777277?aff=oddtdtcreator',
       jornada: 'afternoon',
       showButton: true
     },
